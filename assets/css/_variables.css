@@ -1,0 +1,28 @@
+:root {
+  /* Color */
+  --primary-color: hsl(234, 76%, 69%);
+  --danger-color: hsl(355, 100%, 73%);
+  --success-color: hsl(160, 86%, 60%);
+  --warning-color: hsl(36, 100%, 67%);
+  --white-color: #fff;
+  --dark-info-color: hsl(213, 16%, 56%);
+  --light-color-info: hsl(220, 27%, 89%);
+  --light-color: rgba(132, 139, 200, .18);
+  --primary-color-variant: hsl(233, 78%, 30%);
+  --dark-color-variant: hsl(212, 12%, 46%);
+  --background-color: hsl(240, 20%, 97%);
+
+  /* Border Radius */
+  --card-radius: 2rem;
+  --border-radius-1: .4rem;
+  --border-radius-2: .8rem;
+  --border-radius-3: 1.2rem;
+
+  /* Padding */
+  --card-padding: 1.8rem;
+  --padding: 1.2rem;
+
+  /* Box Shadow */
+  --box-shadow: 0 2rem 3rem var(--color-light);
+
+}
