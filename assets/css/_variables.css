@@ -5,8 +5,8 @@
   --success-color: hsl(160, 86%, 60%);
   --warning-color: hsl(36, 100%, 67%);
   --white-color: #fff;
-  --dark-info-color: hsl(213, 16%, 56%);
-  --light-color-info: hsl(220, 27%, 89%);
+  --info-dark-color: hsl(213, 16%, 56%);
+  --info-light-color: hsl(220, 27%, 89%);
   --light-color: rgba(132, 139, 200, .18);
   --primary-color-variant: hsl(233, 78%, 30%);
   --dark-color-variant: hsl(212, 12%, 46%);
@@ -23,6 +23,14 @@
   --padding: 1.2rem;
 
   /* Box Shadow */
-  --box-shadow: 0 2rem 3rem var(--color-light);
+  --box-shadow: 0 2rem 3rem var(--light-color);
+}
 
+.dark-theme-variables {
+  --background-color: #181e1e;
+  --white-color: #202528;
+  --dark-color: #edeffd;
+  --dark-color-variant: #a3bdcc;
+  --light-color: rgba(0, 0, 0, .4);
+  --box-shadow: 0 2rem 3rem var(--light-color);
 }
